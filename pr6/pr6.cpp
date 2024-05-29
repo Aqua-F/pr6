@@ -10,7 +10,7 @@ public: void f() { cout << " B"; }
 };
 class C : public virtual B
 {
-public: void f() { cout << " C"; }
+public: void f() { cout << " C1"; }
 };
 class E : public virtual A, public virtual B, public virtual C
 {
